@@ -2,7 +2,7 @@ from metaflow import FlowSpec, step, kubernetes, batch, mpi, current, parallel
 from consts import N_CPU, N_NODES, MEMORY
 
 
-class CoreweaveMPI4PyFlow(FlowSpec):
+class MPI4PyFlow(FlowSpec):
     @step
     def start(self):
         self.next(self.multinode, num_parallel=N_NODES)
@@ -29,4 +29,4 @@ class CoreweaveMPI4PyFlow(FlowSpec):
 
 
 if __name__ == "__main__":
-    CoreweaveMPI4PyFlow()
+    MPI4PyFlow()

@@ -4,7 +4,7 @@ N_CPU = 8
 N_NODES = 2
 
 
-class CoreweaveSingleSourceShortestPath(FlowSpec):
+class SingleSourceShortestPath(FlowSpec):
     sssp_source = Parameter(
         "sssp_source",
         help="Source vertex for single source shortest path computation.",
@@ -64,4 +64,4 @@ class CoreweaveSingleSourceShortestPath(FlowSpec):
 
 
 if __name__ == "__main__":
-    CoreweaveSingleSourceShortestPath()
+    SingleSourceShortestPath()
