@@ -1,0 +1,3 @@
+N_CPU = 4
+N_NODES = 4
+MEMORY = 16000
