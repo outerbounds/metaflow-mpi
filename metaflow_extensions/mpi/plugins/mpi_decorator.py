@@ -356,6 +356,3 @@ def setup_mpi_env(
 
     s3.close()
     return hosts
-
-
-STEP_DECORATORS_DESC = [("mpi", ".MPIDecorator")]
