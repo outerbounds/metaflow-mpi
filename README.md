@@ -38,7 +38,7 @@ class MPI4PyFlow(FlowSpec):
         # others: 
             # current.mpi.run: matches mpirun command
             # current.mpi.cc: matches mpicc command
-            # current.mpi.broadcast_file: sends file from control to all others, such as compiled binary.
+            # current.mpi.broadcast_file: sends file from control to all others, such as a compiled binary.
         
         ...
     ...
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 | :--- | ---: |
 | [Hello C](examples/c-hello/flow.py) | Run a hello world C program that shows how to include, compile, and run a c program on your dynamically formed MPI cluster. |  
 | [Hello Python](examples/python-hello/flow.py) | A hello world program using [mpi4py](https://mpi4py.readthedocs.io/en/stable/). |  
-| [Numpy Array Passing](examples/numpy/flow.py) | An MPI program that shows you how to broadcast, scatter, gather, and implement your own all reduce routine on NumPy arrays. |  
+| [NumPy Array Passing](examples/numpy/flow.py) | An MPI program that shows you how to broadcast, scatter, gather, and implement your own all reduce routine on NumPy arrays. |  
 | [LibGrape](examples/libgrape) | A set of workflows, each run using the [LibGrape framework](https://github.com/alibaba/libgrape-lite) from Alibaba, showing how to run highly scalable graph algorithms such as weakly connected component, pagerank, and breadth first search.|
 
 
