@@ -16,7 +16,7 @@ To use the MPI integration in your Metaflow steps, you will need those steps to 
 ### Getting Started
 After installing the module, you can import the `mpi` decorator and annotate steps with it.
 Doing this exposes four new methods on the Metaflow `current` object, which you can see described in context of the following workflow scaffolding:
-```
+```python
 # flow.py
 from metaflow import FlowSpec, step, batch, mpi, current
 
