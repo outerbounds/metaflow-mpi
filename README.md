@@ -30,7 +30,7 @@ class MPI4PyFlow(FlowSpec):
     @mpi
     @step
     def multinode(self):
-        # matches command mpiexec command
+        # matches mpiexec command
         current.mpi.exec(
             args=["-n", "128"],
             program="python mpi_program.py",
