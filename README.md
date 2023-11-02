@@ -51,10 +51,10 @@ if __name__ == "__main__":
 
 | Directory | MPI program description |
 | :--- | ---: |
-| [Hello C](examples/c-hello/flow.py) | Run a hello world C program that shows how to include, compile, and run a c program on your dynamically formed MPI cluster. |  
-| [Hello Python](examples/python-hello/flow.py) | A hello world program using [mpi4py](https://mpi4py.readthedocs.io/en/stable/). |  
-| [NumPy Array Passing](examples/numpy/flow.py) | An MPI program that shows you how to broadcast, scatter, gather, and implement your own all reduce routine on NumPy arrays. |  
-| [LibGrape](examples/libgrape) | A set of workflows, each run using the [LibGrape framework](https://github.com/alibaba/libgrape-lite) from Alibaba, showing how to run highly scalable graph algorithms such as weakly connected component, pagerank, and breadth first search.|
+| [Hello C](examples/c-hello/README.md) | Run a hello world C program that shows how to include, compile, and run a c program on your dynamically formed MPI cluster. |  
+| [Hello Python](examples/python-hello/README.md) | A hello world program using [mpi4py](https://mpi4py.readthedocs.io/en/stable/). |  
+| [NumPy Array Passing](examples/numpy/README.md) | An MPI program that shows you how to broadcast, scatter, gather, and implement your own all reduce routine on NumPy arrays. |  
+| [LibGrape](examples/libgrape-ldbc-graph-benchmark/README.md) | A set of workflows, each run using the [LibGrape framework](https://github.com/alibaba/libgrape-lite) from Alibaba, showing how to run highly scalable graph algorithms such as weakly connected component, pagerank, and breadth first search.|
 
 
 ### License
